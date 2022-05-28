@@ -1,0 +1,80 @@
+.container{
+background-color: cyan;
+float:left;
+}
+
+.row1{
+background-color: black;
+width:100%;
+text-align: center;
+color: white;
+height: 100px;
+float:left;
+}
+
+.row2{
+    background-color: orange;
+    padding: 10px;
+    float:left;
+    width:100%;
+    }
+
+.row3{
+    text-align:center;
+    background-color: cyan;
+    color:black;
+    float:left;
+    width:100%;
+}
+
+.row4{
+    background-color: greenyellow;
+    text-align:center;
+    padding:10px;
+    float:left;
+    width:100%;
+
+}
+
+.row5{
+    text-align: center;
+    padding: 10px;
+    float:left;
+    width:100%;
+}
+
+.input-box{
+    width:50%;
+    height:50px;
+    float:left;
+    text-align:center;
+}
+
+.m-font{
+    font-size:35px;
+}
+
+.round-border{
+    border-radius:10px;
+}
+
+.btn{
+    background-color: brown;
+    height:30px;
+    width:auto;
+    color:white;
+    border:solid 2px blueviolet;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-right: 30px;
+    padding: 2px 20px;
+    
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color:white;
+    border: solid 2px brown;
+    font-weight: bold;
+}
+

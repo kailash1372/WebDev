@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class='container'>
+        <div class='row1'>
+            <h1 id="r_num">Roll Number</h1>
+        </div>
+
+        <div class='row2'>
+            <div class="input-box">
+                <input type="text" id="data1" size="30" class="m-font round-border">
+            </div>
+            <div class="input-box">
+                <input type="text" id="data2" size="30" class="m-font round-border">
+            </div>
+        </div>
+
+        <div class="row3">
+            <h1 id="result">Answer</h1>
+        </div>
+
+        <div class="row4">
+            <button class="btn" onclick="add()">Add</button>
+            <button class="btn" onclick="subtract()">Subtract</button>
+            <button class="btn" onclick="multiply()">Multiply</button>
+            <button class="btn" onclick="divide()">Divide</button>
+            <button class="btn" onclick="Even()">isEven</button>
+            <button class="btn" onclick="Odd()">isOdd</button>
+        </div>
+    </div>
+    <div class="row5">
+        <button onclick="add_roll_number()" class="btn" style="width:auto;">
+            Show Roll Number
+        </button>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
